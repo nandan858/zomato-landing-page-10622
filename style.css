@@ -123,4 +123,30 @@
     .input_container_location{
         border-right: none;
     }
+    .container__we_offer{
+        margin: 48px auto;
+        width: 80%;
+    
+    }
+
+    .we__offer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .we__offer .card{
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid #e0e0e0;
+    }
+
+    .we__offer .card img{
+        width: 240px;
+        height: 150px;
+    }
+
+
 }
